@@ -1,0 +1,46 @@
+# CookLabel 项目依赖库
+# 安装方法：pip install -r requirements.txt
+# 注意：建议在虚拟环境中安装以避免依赖冲突
+# GUI框架
+PyQt5>=5.15.0
+
+# 图像处理
+opencv-python>=4.5.0
+Pillow>=8.0.0
+numpy>=1.21.0
+
+# 机器学习框架
+torch>=1.9.0
+torchvision>=0.10.0
+ultralytics>=8.0.0
+efficientnet-pytorch>=0.7.0
+scikit-learn>=1.0.0
+
+# 深度学习相关
+pytorch-lightning>=1.5.0
+lightning-fabric>=1.8.0
+
+# 数据处理
+pycocotools>=2.0.0
+imagesize>=1.3.0
+tqdm>=4.62.0
+
+# XML处理
+lxml>=4.6.0
+
+# 可视化
+matplotlib>=3.5.0
+termcolor>=1.1.0
+tabulate>=0.8.0
+
+# ONNX支持
+onnx>=1.10.0
+# onnxsim>=0.4.0  # 可能在Windows上有路径长度问题，如需要请手动安装
+
+# 其他工具库
+PyYAML>=6.0
+setuptools>=50.0.0
+
+# 可选依赖（用于特定功能）
+# timm  # 如果使用timm模型包装器
+# tensorboard  # 如果需要tensorboard日志记录
