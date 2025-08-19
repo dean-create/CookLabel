@@ -1,0 +1,10 @@
+{
+  "category1_name": "test",
+  "category1_options": [
+    "a",
+    "b",
+    "c"
+  ],
+  "category2_name": "",
+  "category2_options": []
+}
