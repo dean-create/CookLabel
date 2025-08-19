@@ -37,12 +37,9 @@ CookLabel 是一个基于开源项目 LabelImg 进行功能增强开发的图像
 📦 安装说明
 
 方法一：使用requirements.txt安装依赖
-1. 确保已安装Python 3.6+
+1. 确保已安装Python 3.6及以上
 2. 打开命令行，切换到项目目录
-3. 创建虚拟环境（推荐）：
-   python -m venv cooklabel_env
-   # Windows激活：cooklabel_env\Scripts\activate
-   # Linux/Mac激活：source cooklabel_env/bin/activate
+3. 创建虚拟环境（推荐）：miniconda
 4. 安装依赖：
    pip install -r indispensable/requirements.txt
 5. 运行程序：
@@ -96,26 +93,6 @@ CookLabel 是一个基于开源项目 LabelImg 进行功能增强开发的图像
 • Ctrl+Wheel：鼠标滚轮缩放
 • Ctrl+F：适应窗口
 • Ctrl+Shift+F：适应宽度
-
-📁 项目结构
-CookLabel/
-├── CookLabel.py              # 主程序文件
-├── libs/                     # 核心功能模块
-│   ├── canvas.py            # 画布组件
-│   ├── labelDialog.py       # 标签对话框
-│   ├── shape.py             # 标注框形状类
-│   ├── pascal_voc_io.py     # Pascal VOC格式支持
-│   ├── yolo_io.py           # YOLO格式支持
-│   ├── create_ml_io.py      # CreateML格式支持
-│   ├── videoFrameExtractor.py # 视频拆帧功能
-│   ├── modelInferenceDialog.py # 模型推理对话框
-│   └── ...
-├── resources/               # 资源文件
-│   ├── icons/              # 图标文件
-│   └── strings/            # 多语言字符串
-├── indispensable/          # 必需文件
-│   ├── requirements.txt    # 依赖列表
-│   └── readme.txt          # 本说明文档
 
 🔧 功能详解
 
