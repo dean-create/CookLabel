@@ -1,7 +1,6 @@
 # CookLabel
 CookLabel是一个基于开源项目LabelImg进行功能增强开发的图像标注工具。该工具专为计算机视觉和卷积深度神经网络项目设计，提供了直观易用的图形界面，支持多种标注格式，并新增了多项实用功能，在保留原有标注功能的基础上，实现从采集的原始数据到模型的训练数据工作流程的一体化，大幅提升标注效率。  
-直接使用.exe的应用程序：CookLabel_v1.0_plus.exe
-链接: https://pan.baidu.com/s/1A9qLrKx0Sg6SWnMaKwmDVw?pwd=ygi1 提取码: ygi1  
+直接使用.exe的应用程序：https://pan.baidu.com/s/1A9qLrKx0Sg6SWnMaKwmDVw?pwd=ygi1 提取码: ygi1  
 
 <img width="2559" height="1496" alt="image" src="https://github.com/user-attachments/assets/527d7a06-cdd6-4ade-a21e-19f37519f024" />  
 
