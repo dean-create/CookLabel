@@ -42,7 +42,7 @@ CookLabel是一个基于开源项目LabelImg进行功能增强开发的图像标
 2. 打开命令行，切换到项目目录  
 3. 创建虚拟环境（推荐）：miniconda
 4. 安装依赖：
-   pip install -r indispensable/requirements.txt
+   pip install -r requirements.txt
 5. 运行程序：
    python CookLabel.py
 
